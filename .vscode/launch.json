@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Web - Browse",
+            "type": "chrome",
+            "request": "attach",
+            "preLaunchTask": "Debug",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/src",
+            "port": 9222,
+            "smartStep": false, // temporary due to bug in debugger (see )
+            "skipFiles": ["node_modules/**/*.js", "lib/**/*.js"]
+        }
+    ]
+}

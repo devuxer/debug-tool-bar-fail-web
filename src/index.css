@@ -1,0 +1,16 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+rect.schedule-grid-cell:hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+a:hover {
+    text-decoration: underline;
+}
